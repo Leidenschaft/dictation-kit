@@ -22,7 +22,7 @@
 #-module			# start in module mode
 #-record dir			# record each inputs into dir
 #-logfile file			# redirect logs to file
-#-nolog				# disable all logs
+-nolog				# disable all logs
 #-help				# print help, and exit
 
 
@@ -55,7 +55,7 @@
 ## Raw audio input
 #-input mic    			# live microphone
 #-input rawfile			# wavefile
-#-input file			# (same as "rawfile")
+-input file			# (same as "rawfile")
 #-input stdin			# waveform from standard input
 #-input adinnet			# waveform via network client
 #-input netaudio                # DatLink server
@@ -66,7 +66,7 @@
 #-input pulseaudio		# PulseAudio API
 
 
-#-filelist filename		# input file list
+-filelist test.dbl		# input file list
 #-notypecheck			# does not check parameter type of input
 #-48				# 48kHz sampling > 16kHz conv. (16kHz only)
 #-NA devname			# hostname for DatLink server
@@ -85,7 +85,7 @@
 ####
 #### default: on for microphone, off for other sources
 ####
-#-cutsilence			# detection on
+-cutsilence			# detection on
 #-nocutsilence			# detection off
 #-lv 2000			# level threshold (0-32767)
 #-zc 60				# zero-cross threshold (times in sec.)
@@ -147,7 +147,7 @@
 #### off for others.
 ####
 #-realtime			# force real-time processing
-#-norealtime			# force non real-time processing
+-norealtime			# force non real-time processing
 
 ####
 #### Plug-in
@@ -238,7 +238,7 @@
 #-mapunk "<unk>"		# word to which unknown words should be mapped
 #-iwspword			# add a pause word to the dictionary
 #-iwspentry "<UNK> [sp] sp sp"	# word that will be added by "-iwspword"
-#-sepnum 150			# num of high freq words to linearize 
+# -sepnum 150			# num of high freq words to linearize 
 #-adddict dictfile              # append additional word dictionary
 #-addword entry                 # append additional word entry
 

@@ -15,6 +15,6 @@
 -lmp2 14 0
 
 # choose microphone input
--input mic
+# -input mic
 
 ## EOF
