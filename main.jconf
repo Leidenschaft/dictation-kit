@@ -22,7 +22,7 @@
 #-module			# start in module mode
 #-record dir			# record each inputs into dir
 #-logfile file			# redirect logs to file
--nolog				# disable all logs
+#-nolog				# disable all logs
 #-help				# print help, and exit
 
 
@@ -71,7 +71,7 @@
 #-48				# 48kHz sampling > 16kHz conv. (16kHz only)
 #-NA devname			# hostname for DatLink server
 #-adport 5530			# port number for adinnet
-#-nostrip			# do not strip zero samples
+-nostrip			# do not strip zero samples
 #-zmean				# remove DC offset (use long input average)
 #-nozmean			# disable "-zmean" specified before
 
